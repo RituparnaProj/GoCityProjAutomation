@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//*[@id=\"block-node-banner\"]/div/div/div/div/div/div/div/h1"
-}

@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": "//li[@class=\"secondary-menu\"]:nth-child(5)"
-}
