@@ -1,0 +1,108 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1607267921262' stop='1607267931130'>
+    <name>Parabank Sample Scenarios: Login Successful</name>
+    <title>Parabank Sample Scenarios: Login Successful</title>
+    <test-cases>
+        <test-case start='1607267921264' status='passed' stop='1607267921291'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1607267921292' status='passed' stop='1607267930935'>
+            <name>Given I am on the Go City Products page</name>
+            <title>Given I am on the Go City Products page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1607267921301' status='passed' stop='1607267928465'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='db1b7782-ec06-47b4-a59b-2726ce8b66bd-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1607267928466' status='passed' stop='1607267930933'>
+                    <name>POST /session/:sessionId/window/maximize</name>
+                    <title>POST /session/:sessionId/window/maximize</title>
+                    <attachments>
+                        <attachment title='Response' source='214601af-5c89-4f0d-8e4a-4631d3b695a0-attachment.json' type='application/json' size='58'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1607267930935' status='broken' stop='1607267931128'>
+            <name>Then I select Plan your trip</name>
+            <title>Then I select Plan your trip</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps>
+                <step start='1607267930937' status='broken' stop='1607267931128'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='338f7064-98ca-4df5-a5f9-9e7119a71513-attachment.json' type='application/json' size='114'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=87.0.4280.88)</message>
+                <stack-trace>invalid selector: An invalid or illegal selector was specified
+                  (Session info: chrome=87.0.4280.88)
+                    at getErrorFromResponseBody (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\node_modules\webdriver\build\utils.js:121:10)
+                    at WebDriverRequest._request (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\node_modules\webdriver\build\request.js:149:56)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at Browser.$ (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\node_modules\webdriverio\build\commands\browser\$.js:19:15)
+                    at Browser.runCommandWithHooks (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\node_modules\@wdio\sync\build\wrapCommand.js:88:21)
+                    at Browser.runCommandWithHooks (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\node_modules\@wdio\sync\build\wrapCommand.js:82:22)
+                    at Browser.wrapCommandFn (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\node_modules\@wdio\sync\build\wrapCommand.js:59:40)
+                    at $ (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\node_modules\@wdio\runner\build\index.js:189:36)
+                    at LoginPage.planyourtrip (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\page-objects\/LoginPage.js:20:16)
+                    at LoginPage.selectplanyourtrip (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\page-objects\/LoginPage.js:38:14)
+                    at World.&lt;anonymous> (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\step-definitions\/Steps.js:29:15)
+                    at World.executeSync (C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\node_modules\@wdio\sync\build\index.js:56:18)
+                    at C:\Users\RBanerjee\Desktop\AutoTest\webdriverio-cucumber-allure-example-master\node_modules\@wdio\sync\build\index.js:82:70</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1607267931128' status='passed' stop='1607267931129'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "[class=\"pass-product-secondary-links container\"]/div[1]/ul[1]/li[5]"
+}

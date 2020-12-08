@@ -1,0 +1,4 @@
+{
+  "using": "css selector",
+  "value": "#block-secondarylinks > div > div > div > div > div > ul > li:nth-child(5) > a"
+}
